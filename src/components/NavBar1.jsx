@@ -1,71 +1,45 @@
 import { useState } from 'react'
-import { Button } from './Button'
+import * as FaIcons from 'react-icons/fa'
+import * as AiIcons from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import { SidebarData } from './SidebarData'
+import { IconContext } from 'react-icons'
 import './../styles/NavBar1.scss'
-import Dropdown from './Dropdown'
+
 
 function NavBar1 () {
-    const [click, setClick] = useState(false)
-    const [dropdown, setDropdown] = useState(false)
+    const [sidebar, setSidebar] = useState(false)
 
-    const handleClick = () => setClick(!click)
-    const closeMobileMenu = () => setClick(false)
-
-    const onMouseEnter = () => {
-        if(window.innerWidth < 960) {
-            setDropdown(false);
-        }else {
-            setDropdown(true);
-        }
-    }
-
-    const onMouseLeave = () => {
-        if(window.innerWidth < 960) {
-            setDropdown(false);
-        }else {
-            setDropdown(false);
-        }
-    }
+    const showSidebar = () => setSidebar(!sidebar)
 
     return (
         <>
-            <nav className={click?'navbar1 active':'navbar1'}>
-                <div className='menu-icon' onClick={handleClick}>
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <IconContext.Provider value={{ color: '#fff'}}>
+                <div className='navbar'>
+                    <Link to='#' className='menu-bars'>
+                        <FaIcons.FaBars onClick={showSidebar} />
+                    </Link>
                 </div>
-                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className="nav-item">
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                            Home
-                        </Link>
-                    </li>
-                    <li className="nav-item"
-                        onMouseEnter={onMouseEnter}
-                        onMouseLeave={onMouseLeave}
-                    >
-                        <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                            Services <i className='fas fa-caret-down' />
-                        </Link>
-                        {dropdown && <Dropdown />}
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                            Products
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
-                            Contact us
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign Up
-                        </Link>
-                    </li>
-                </ul>
-                <Button />
-            </nav>  
+                <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className='nav-menu-items' onClick={showSidebar}>
+                        <li className='navbar-toggle'>
+                            <Link to='#' className='menu-bars'>
+                                <AiIcons.AiOutlineClose />
+                            </Link>
+                        </li>
+                        {SidebarData.map((item, index) => {
+                        return (
+                            <li key={index} className={item.cName}>
+                                <Link to={item.path}>
+                                    {item.icon}
+                                    <span>{item.title}</span>
+                                </Link>
+                            </li>
+                        );
+                        })}
+                    </ul>
+                </nav>
+            </IconContext.Provider>
         </>
     )
 }
