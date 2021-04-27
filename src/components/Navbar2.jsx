@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import  './../styles/NavbarHorizontal.scss'
 
@@ -8,7 +7,7 @@ function Navbar2 () {
         <>
             <nav className='nav-horizontal'>
                 <Link to='/' className='nav-left' >
-                   Hola
+                   ysj web design
                 </Link>
                 <Link to='/' className='nav-button'>
                     Contacto

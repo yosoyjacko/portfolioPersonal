@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    margin-left: 15%;
+    border-left: 1px solid #fff;
+    height: 90vh;
+    float: left;
+    width: 50%;    
+}
+
+span {
+    font-family: 'Plus Jakarta', sans-serif;
+}
+.content {
+    width: 90%;
+    // max-width: 565px;
+}
+
+.tittle {
+    position: relative;
+    font-size: 5rem;
+    font-weight: 300;
+    // margin-bottom: 32px;
+}
+
+.lead-1 {
+    position: relative;
+    left: 0px;
+    display: inline-block;
+}
+
+.tittle h1 {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 16px;
+     font-size: 68px;
+    line-height: 1em;
+     font-weight: 300;
+    letter-spacing: -0.03em;
+    
+}
+
+.lead-2 {
+    display: inline-block;
+    
+}
+
+.red-text {
+    color: #ff5753;
+    font-weight: 900;
+    
+}
+
+.content-330 {
+    position: relative;
+    width: 100%;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+p {
+    position: relative;
+    
+    font-family: 'Plus Jakarta', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    // font-weight: 400;
+    margin: 0 0 0 16px;
+}
+
