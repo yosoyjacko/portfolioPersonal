@@ -1,7 +1,8 @@
+import './../../styles/Works.scss'
 export default function Products() {
     return (
         <>
-            <h1 className="consulting">PRODUCTS</h1>
+            <h1 className="works-container">PRODUCTS</h1>
         </>
     )
 }
