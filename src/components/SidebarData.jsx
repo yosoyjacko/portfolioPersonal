@@ -9,38 +9,38 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Consulting',
-        path: '/consulting',
+        title: 'Sobre mi',
+        path: '/Sobre-mi',
         icon: <GiIcons.GiAce />,
         cName: 'nav-text'
     },
     {
-        title: 'ContactUs',
-        path: '/contact-us',
+        title: 'Contacto',
+        path: '/Contacto',
         icon: <GiIcons.GiEvilWings />,
         cName: 'nav-text'
     },
     {
-        title: 'Marketing',
-        path: '/marketing',
+        title: 'Mi CV',
+        path: '/Mi-CV',
         icon: <GiIcons.GiDelighted />,
         cName: 'nav-text'
     },
     {
-        title: 'Products',
-        path: '/products',
+        title: 'Proyectos',
+        path: '/Proyectos',
         icon: <GiIcons.GiBatteredAxe />,
         cName: 'nav-text'
     },
     {
-        title: 'Services',
-        path: '/services',
+        title: 'Cursos',
+        path: '/Cursos',
         icon: <GiIcons.GiCardJackDiamonds />,
         cName: 'nav-text'
     },
     {
-        title: 'SignUp',
-        path: '/sign-up',
+        title: 'Algo mas',
+        path: '/Algo-mas',
         icon: <GiIcons.GiCardPlay />,
         cName: 'nav-text'
     }
