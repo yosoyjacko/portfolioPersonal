@@ -7,7 +7,7 @@ function Navbar2 () {
         <>
             <nav className='nav-horizontal'>
                 <Link to='/' className='nav-left' >
-                   ysj web design
+                   Home
                 </Link>
                 <Link to='/' className='nav-button'>
                     Contacto
