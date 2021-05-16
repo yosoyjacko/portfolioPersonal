@@ -139,7 +139,7 @@ const slides = [
     );
   }
   
-  function Products() {
+  function Proyectos() {
     const [state, dispatch] = useReducer(slidesReducer, initialState);
   
     return (
@@ -157,4 +157,4 @@ const slides = [
     );
   }
 
-  export default Products;
+  export default Proyectos;
