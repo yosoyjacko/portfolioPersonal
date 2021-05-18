@@ -14,12 +14,7 @@ export const SidebarData = [
         icon: <GiIcons.GiAce />,
         cName: 'nav-text'
     },
-    {
-        title: 'Contacto',
-        path: '/Contacto',
-        icon: <GiIcons.GiEvilWings />,
-        cName: 'nav-text'
-    },
+    
     {
         title: 'Mi CV',
         path: '/Mi-CV',
@@ -36,12 +31,6 @@ export const SidebarData = [
         title: 'Cursos',
         path: '/Cursos',
         icon: <GiIcons.GiCardJackDiamonds />,
-        cName: 'nav-text'
-    },
-    {
-        title: 'Algo mas',
-        path: '/Algo-mas',
-        icon: <GiIcons.GiCardPlay />,
         cName: 'nav-text'
     }
 ]
