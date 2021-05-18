@@ -1,7 +1,7 @@
 export default function SignUp() {
     return (
         <>
-            <h1 className="consulting">SIGN UP</h1>
+            <h1 className="consulting">Aun no se que poner aca</h1>
         </>
     )
 }

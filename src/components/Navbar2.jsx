@@ -9,7 +9,7 @@ function Navbar2 () {
                 <Link to='/' className='nav-left' >
                    Home
                 </Link>
-                <Link to='/' className='nav-button'>
+                <Link to='/mi-cv' className='nav-button'>
                     Contacto
                 </Link>
                 <div className="nav-line"></div>
