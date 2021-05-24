@@ -1,27 +1,24 @@
 import '../../styles/Certification.scss'
+import IMG2 from '../../img/foto1.jpg'
+import IMG1 from '../../img/foto2.jpg'
 
 export default function Services() {
     return (
         <>
              <div className="container-certification">
                 <div className="content-certification">
-                    <h1 className="tittle">
-                        <span className="lead-1">Hello World! </span>
-                    </h1>
-                    <h1 className="tittle">
-                        <span className="lead lead-2">Soy <strong className="red-text">Jorge Correa</strong></span>
-                    </h1>
-                    <h1 className="tittle">
-                        <span className="lead lead-3">El <strong className="red-text">Desarrollador Web</strong></span>
-                    </h1>
-                    <h1 className="tittle">
-                        <span className="lead lead-4">Que estabas buscando</span>
-                    </h1>
-                    <div className="content-330">
-                        <p className="home-text no-margin-bottom">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione aspernatur harum amet qui quae nihil earum! Corrupti
-                        </p>
-                    </div>
+                  <div className="card">
+                      <div className="imgBox">
+                        <img src={IMG2} alt="" />
+                        <img src={IMG1} alt="" />
+                      </div>
+                      <div className="details">
+                          <div className="content">
+                              <h2>Lorem, ipsum<br /></h2>
+                              <h2 className="algo">Lorem, ipsum</h2>
+                          </div>
+                      </div>
+                  </div>
                
                 </div>
             
