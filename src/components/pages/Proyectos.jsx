@@ -6,31 +6,31 @@ const slides = [
       title: "Dragon Ball Super",
       subtitle: "lorem",
       description: "lorem ipsum",
-      image: "https://laverdadnoticias.com/__export/1610221860938/sites/laverdad/img/2021/01/09/goku_dragon_ball_super.jpg_2065693783.jpg"    
+      image: IMG2    
     },
     {
       title: "Dragon Ball Super",
       subtitle: "lorem",
       description: "lorem ipsum",
-      image: "https://www.gamecored.com/wp-content/uploads/2019/10/dragon-ball-super-1620x800.jpg"
+      image: IMG2
     },
     {
       title: "Dragon Ball Super",
       subtitle: "lorem",
       description: "lorem ipsum",
-      image: "https://radardeldragon.com/wp-content/uploads/2020/08/dragon-ball-super-manga-espa%C3%B1ol-completo-1024x576.jpg"
+      image: IMG2
     },
     {
       title: "Dragon Ball Super",
       subtitle: "lorem",
       description: "lorem ipsum",
-      image: "https://i.ytimg.com/vi/IyIVCtL8osA/maxresdefault.jpg"
+      image: IMG2
     },
     {
       title: "Dragon Ball Super",
       subtitle: "lorem",
       description: "lorem ipsum",
-      image: "https://sm.ign.com/t/ign_latam/screenshot/default/20210412-233434_y8zu.1280.jpg"
+      image: IMG2
     }
   ];
   

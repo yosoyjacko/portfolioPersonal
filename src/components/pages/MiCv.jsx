@@ -1,5 +1,5 @@
 import '../../styles/StyleCv.scss'
-import IMG1 from '../../img/foto8.jpg'
+import IMG1 from '../../img/foto1.jpg'
 
 export default function Marketing() {
 
@@ -29,7 +29,9 @@ export default function Marketing() {
             </div>
             <div className='cv-image'>
                 <div className="content-cv-image">
-                    <img src={IMG1} alt="" />
+                    <a href={IMG1} download>
+                        <img src={IMG1} alt="" />
+                    </a>
 
                 </div>
             </div>
