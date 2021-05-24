@@ -35,7 +35,7 @@ export default function Marketing() {
             <div className='cv-image'>
                 <div className="content-cv-image">
                     <a href={CV} download>
-                        <img src={IMG1} alt="" />
+                        <img className="cv-imagen" src={IMG1} alt="" />
                     </a>
 
                 </div>
