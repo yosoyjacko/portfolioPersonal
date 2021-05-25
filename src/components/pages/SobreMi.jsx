@@ -33,11 +33,10 @@ export default function SobreMi() {
                     <h2 className="aboutMe">Querés saber un poco mas de mi?</h2>
                     <div className="aboutMe-text">
                         <p className="texto-aboutme">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia laborum animi dolores deleniti magni sapiente velit blanditiis ea soluta ratione porro, architecto, doloribus eveniet? Veritatis impedit nisi aspernatur commodi enim?
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eum corporis nobis possimus assumenda doloribus expedita, consectetur a quo hic natus nam fugiat eveniet voluptatibus cum architecto vitae facilis impedit!Lorem
-                    lorem
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad illum voluptatum, illo molestiae id corporis praesentium. Placeat, magnam eaque. Repellat nostrum reprehenderit ad voluptates libero, harum praesentium natus adipisci quas!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, natus dolores. A cumque corporis cum ducimus modi. Corporis harum, id totam quia repellat unde. Laborum earum adipisci hic mollitia quaerat saepe dolore molestiae neque possimus autem aperiam voluptate corrupti alias id quasi maxime reprehenderit quod consequatur ex officia, perspiciatis, quo ad. Debitis dolorum repudiandae saepe harum enim, animi consequuntur facere magnam itaque eveniet deserunt eius ullam pariatur. Assumenda eius dignissimos aliquam aperiam iste, eum voluptatem quam? Ipsa ea iusto autem ratione commodi, molestias impedit ipsam. Placeat quaerat rerum tempore, tenetur sequi error illum soluta autem excepturi similique voluptatibus numquam? Voluptates?
+                            Soy desarrollador web fullstack con fuerte enfoque en el front-end. <br />
+                            Hace relativamente poco tuve la oportunidad de completar un bootcamp de fullstack en la plataforma SOYHENRY con mas de 700hs de practicas con el stack PERN (PostgreSQL, EXPRESS, React y Node.) <br />
+                            Soy una persona curiosa a la que le encanta la tecnologia y seguir aprendiendo mas todos los dias, dandole mucha importancia a la comunicacion en el grupo ya que para mi es lo mas importante para ser un mejor desarrollador y asi seguir creciendo como profesional. <br />
+                            Me considero capas de aportar al grupo nuevas ideas, soluciones y mucha buena onda para asi poder aumentar la productividad en el equipo y entregar proyectos de gran calidad.
                         </p>
                     </div>
                     <div className="banner">         
