@@ -21,7 +21,7 @@ function App() {
         
         <Route path='/mi-cv' exact component={MiCv} />
         <Route path='/proyectos' exact component={Proyectos} />
-        <Route path='/cursos' exact component={Cursos} />
+        <Route path='/Certificados' exact component={Cursos} />
         {/* <Route path='/algo-mas' exact component={AlgoMas} /> */}
       </Switch>
     </Router>

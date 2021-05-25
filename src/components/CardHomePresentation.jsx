@@ -16,13 +16,7 @@ function CardHomePresentation () {
                     </h1>
                     <h1 className="tittle">
                         <span className="lead lead-4">Que estabas buscando</span>
-                    </h1>
-                    <div className="content-330">
-                        <p className="home-text no-margin-bottom">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione aspernatur harum amet qui quae nihil earum! Corrupti
-                        </p>
-                    </div>
-               
+                    </h1>           
                 </div>
             
             </div>
