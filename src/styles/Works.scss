@@ -93,7 +93,7 @@
   margin: 0;
   font-size: 0.8rem;
   letter-spacing: 0.2ch;
-  background: transparent;
+  background:rgba(0,0,0,0.7);
 }
 .slideBackground {
   position: fixed;
@@ -134,4 +134,9 @@
 .slide[data-active] .slideContent:hover {
   transition: none;
   transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) rotateX(calc(var(--y) * -45deg));
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
 }
