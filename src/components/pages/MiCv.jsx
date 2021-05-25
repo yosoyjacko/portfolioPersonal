@@ -28,7 +28,7 @@ export default function Marketing() {
                         </p>
                         <div className="iconos-redes">
                             <a href="http://linkedin.com/in/jorge-correa-44881a157" target="_blank" rel="noopener noreferrer"><img className="redes" src={LINKEDIN} alt="" /> </a>
-                            <a href="http://github.com/yosoyjacko" target="_blank" rel="noopener noreferrer"><img className="redes" src={GITHUB} alt="" /></a>
+                            <a href="http://github.com/yosoyjacko" target="_blank" rel="noopener noreferrer"><img className="redes-git" src={GITHUB} alt="" /></a>
                             
                         </div>
                     </div>
