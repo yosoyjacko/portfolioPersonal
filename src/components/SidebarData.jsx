@@ -28,8 +28,8 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Cursos',
-        path: '/Cursos',
+        title: 'Certificados',
+        path: '/Certificados',
         icon: <GiIcons.GiCardJackDiamonds />,
         cName: 'nav-text'
     }

@@ -34,8 +34,9 @@ export default function SobreMi() {
                     <div className="aboutMe-text">
                         <p className="texto-aboutme">
                             Soy desarrollador web fullstack con fuerte enfoque en el front-end. <br />
-                            Hace relativamente poco tuve la oportunidad de completar un bootcamp de fullstack en la plataforma SOYHENRY con mas de 700hs de practicas con el stack PERN (PostgreSQL, EXPRESS, React y Node.) <br />
-                            Soy una persona curiosa a la que le encanta la tecnologia y seguir aprendiendo mas todos los dias, dandole mucha importancia a la comunicacion en el grupo ya que para mi es lo mas importante para ser un mejor desarrollador y asi seguir creciendo como profesional. <br />
+                            Hace relativamente poco, tuve la oportunidad de completar un bootcamp de fullstack en la plataforma SOYHENRY, con mas de 700hs de practicas con el stack PERN (PostgreSQL, EXPRESS, React y Node.) <br />
+                            Soy una persona curiosa a la que le encanta la tecnologia y seguir aprendiendo mas todos los dias. <br />
+                            Dandole mucha importancia a la comunicacion en el grupo ya que para mi es lo mas importante para ser un mejor desarrollador y asi seguir creciendo como profesional. <br />
                             Me considero capas de aportar al grupo nuevas ideas, soluciones y mucha buena onda para asi poder aumentar la productividad en el equipo y entregar proyectos de gran calidad.
                         </p>
                     </div>

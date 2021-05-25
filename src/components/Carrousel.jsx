@@ -63,7 +63,7 @@ export default class Example extends Component {
           flexDirection: "column",
           justifyContent: "center",
           width: "34vw",
-          height: "90vh",
+          height: "88vh",
         //   margin: "0 auto",
         
           float:'right',
