@@ -14,6 +14,49 @@
     float: left;
     width: 50%; 
 }
+
+.content-cv {
+    width: 98%;
+}
+
+.tittle-cv {
+    position: relative;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.span-tittle {
+    position: relative;
+    left: 0px;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+.text-cv {
+    position: relative;
+    font-family: 'Plus Jakarta', sans-serif;
+    font-size: 50px;
+    line-height: 62px;
+    /* margin: 0 0 0 16px; */
+    padding-top: 3%;
+}
+
+.iconos-redes {
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    padding-top: 2%;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30%;
+}
+.iconos-redes .redes {
+    padding-right: 50%;
+}
+
 .cv-image{
     position: relative;
     display: flex;

@@ -1,36 +1,42 @@
 import {useRef, useReducer,useEffect } from 'react'
 import './../../styles/Works.scss';
-import IMG2 from '../../img/foto1.jpg'
+import IMG2 from '../../img/proyecto2.jpg'
+import IMG1 from '../../img/proyecto1.jpg'
+import IMG3 from '../../img/proyecto6.jpg'
+import IMG4 from '../../img/proyecto4.jpg'
+import IMG5 from '../../img/proyecto5.jpg'
+
+
 const slides = [
     {
-      title: "Dragon Ball Super",
-      subtitle: "lorem",
-      description: "lorem ipsum",
-      image: IMG2    
+      title: "Movie-App",
+      subtitle: <a href="https://github.com/yosoyjacko/movie-app" target="_blank" >GitHub</a>,
+      description: "App utilizando una api pública con información de todas las peliculas creado con react.js",
+      image: IMG1    
     },
     {
-      title: "Dragon Ball Super",
-      subtitle: "lorem",
-      description: "lorem ipsum",
+      title: "Todo-List",
+      subtitle: <a href="https://github.com/yosoyjacko/todo-list" target="_blank" >GitHub</a>,
+      description: "Todo-list creado con React.js",
       image: IMG2
     },
     {
-      title: "Dragon Ball Super",
-      subtitle: "lorem",
-      description: "lorem ipsum",
-      image: IMG2
+      title: "Fragancias Salas",
+      subtitle: <a href="http://fraganciasalas.com/" target="_blank" >Web</a>,
+      description: "Pagina para un local de ventas de perfumes",
+      image: IMG3
     },
     {
-      title: "Dragon Ball Super",
-      subtitle: "lorem",
-      description: "lorem ipsum",
-      image: IMG2
+      title: "TreeBank",
+      subtitle: <a href="https://github.com/yosoyjacko/treebank" target="_blank" >GitHub</a>,
+      description: "Billetera virtual creada como ultimo proyecto de SOYHENRY creado con React native",
+      image: IMG4
     },
     {
-      title: "Dragon Ball Super",
-      subtitle: "lorem",
-      description: "lorem ipsum",
-      image: IMG2
+      title: "Prueba Fotografo",
+      subtitle: <a href="https://github.com/yosoyjacko/pruebaFotografo" target="_blank" >GitHub</a>,
+      description: "Practica simple con html y css",
+      image: IMG5
     }
   ];
   
