@@ -140,3 +140,47 @@ a {
   text-decoration: none;
   background: transparent;
 }
+
+@media (max-width:800px){
+ .works-container {
+  margin-left: 25%;
+  width: 75%;
+  height: 93vh;
+ }
+
+ .slideBackground {
+  height: 100%;
+  left: -25%;
+  margin-top: 0%;
+ }
+}
+
+@media (max-width: 360px) {
+  .works-container {
+    margin-left: 0%;
+    width: 100%;
+    height: 56vh;
+    border-right: none;
+    border-left: none;
+    margin-top: 55%;
+  }
+
+  .slides {
+    display: grid;
+    margin-left: 15%;
+  }
+
+  .slides > button:first-child {
+    left: -20%;
+  }
+  .slides > button:last-child {
+    right: 0%;
+  }
+
+  .slideContent {
+    width: 80%;
+    height: 93vw;
+
+  }
+
+}
