@@ -93,3 +93,35 @@
 }
 
 
+@media (max-width:800px){
+  .container-about-me {
+    margin-left: 25%;
+    width:75%
+  }
+  .content-about-me h2 {
+    font-size: 6vh;
+    line-height: 10vh;
+    padding-top: 5%;
+  }
+  .banner {
+    height: 104%;
+  }
+  .banner .blocks {
+    width: 11%;
+    height: 11%;
+  }
+}
+
+@media (max-width: 360px) {
+  .container-about-me {
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 53%;
+    border-left: none;
+    border-right: none;
+  }
+  .banner {
+    height: 130vh;
+  }
+
+}
