@@ -87,18 +87,27 @@
         width: 45%;
         margin-left: 20%;
     }
+    .tittle-cv{
+        font-size: 2.6rem;
+    }
+}
+
+@media(max-width:980px){
+    .iconos-redes{
+        height: 10vh;
+    }
 }
 
 @media(max-width:940px){
     .container-cv {
         width: 75%;
         margin-left: 25%;
-        height: 55vh;
+        height: 80vh;
     }
 
     .cv-image{
         width: 100%;
-        height: 90vh;
+        height: 125vh;
     }
     .cv-imagen {
         width: 100%;
@@ -110,11 +119,19 @@
     .container-cv {
         width: 100%;
         margin-left: 0%;
-        height: 55vh;
+        height: 80vh;
         margin-top: 40%;
         border-left: none;
         border-right: none;
     }
+
+    .tittle-cv h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
 
 @media(max-width:590px){
