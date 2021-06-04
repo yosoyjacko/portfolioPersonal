@@ -81,88 +81,80 @@
     height: 99%;
 }
 
-@media (max-width:800px){
+
+@media(max-width:1260px){
+    .container-cv{
+        width: 45%;
+        margin-left: 20%;
+    }
+    .tittle-cv{
+        font-size: 2.6rem;
+    }
+}
+
+@media(max-width:980px){
+    .iconos-redes{
+        height: 10vh;
+    }
+}
+
+@media(max-width:940px){
     .container-cv {
-        margin-left: 25%;
         width: 75%;
-        height: 40vh;
-    }
-    .text-cv {
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .iconos-redes {
-        height: 5vh;
+        margin-left: 25%;
+        height: 80vh;
     }
 
-    .cv-image {
+    .cv-image{
         width: 100%;
+        height: 125vh;
     }
-
     .cv-imagen {
         width: 100%;
         height: 100%;
     }
-   }
+}
 
-   @media (max-width: 375px) {
+@media(max-width:800px){
     .container-cv {
-        margin-left: 0%;
         width: 100%;
-        height: 50vh;
-        margin-top: 55%;
-    }
-    .tittle-cv {
-        position: relative;
-        font-size: 2rem;
-    }
-
-    .text-cv {
-        font-size: 30px;
-        line-height: 25px;
-    }
-
-    .span-tittle {
-        position: relative;
-        left: 0px;
-        display: inline-block;
-        padding-top: 0%;
-    }
-   }
-
-   @media (max-width: 320px) {
-    .container-cv {
         margin-left: 0%;
-        margin-top: 63%;
-        width: 100%;
-        height: 40vh;
+        height: 80vh;
+        margin-top: 40%;
         border-left: none;
         border-right: none;
     }
-    .content-cv {
-        width: 100%;
-    }
-    .tittle-cv {
-        position: relative;
-        font-size: 2rem;
-        font-weight: 300;
-    }
-    .span-tittle {      
-        left: 0px;
-        padding-top: 1%;
+
+    .tittle-cv h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .text-cv {
-        font-size: 25px;
-        line-height: 33px;
+
+}
+
+@media(max-width:590px){
+    .container-cv{
+        height: 80vh;
+        margin-top: 50%
+    }
+}
+
+@media(max-width:590px){
+    .container-cv{
+        margin-top: 60%;
     }
 
-    .iconos-redes {
-        height: 7vh;
+    .iconos-redes{
+        height: 10vh;
+        padding-top: 0%;
     }
-    
-    .cv-image {
-        width: 100%;
-        margin-top: 35%;
+}
+
+@media(max-width:320px){
+    .container-cv{
+        margin-top: 70%;
+        height: 160vh;
     }
-   }
+}
