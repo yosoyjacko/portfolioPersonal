@@ -112,16 +112,52 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .container-about-me {
     margin-left: 0%;
     width: 100%;
-    margin-top: 53%;
+    margin-top: 55%;
+    border-left: none;
+    border-right: none;
+    height: 122vh;
+  }
+
+  
+
+  .content-about-me {
+    height: 122vh;
+  }
+
+  .content-about-me h2 {
+    padding-top: 0;
+    line-height: 7vh;
+  }
+
+  .content-about-me .aboutMe-text {
+    padding-top: 0%;
+}
+
+  .banner {
+    height: 122vh;
+}
+
+}
+
+@media (max-width: 320px) {
+  .container-about-me {
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 63%;
     border-left: none;
     border-right: none;
   }
+
+  .content-about-me h2 {
+    padding-top: 0;
+  }
+
   .banner {
-    height: 130vh;
+    height: 139vh;
   }
 
 }
