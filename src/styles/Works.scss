@@ -153,16 +153,31 @@ a {
   left: -25%;
   margin-top: 0%;
  }
+
+ .slideContent {
+  width: 46vw;
+  height: 90vw;
+ }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
+  .works-container {
+    margin-left: 0%;
+    width: 100%;
+    height: 60vh;
+    margin-top: 54%;
+  }
+
+}
+
+@media (max-width: 320px) {
   .works-container {
     margin-left: 0%;
     width: 100%;
     height: 56vh;
     border-right: none;
     border-left: none;
-    margin-top: 55%;
+    margin-top: 63%;
   }
 
   .slides {

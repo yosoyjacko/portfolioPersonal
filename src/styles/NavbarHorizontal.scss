@@ -93,10 +93,30 @@ Link {
     background-color: #fff;
 }
 
+@media (max-width: 375px) {
+    .nav-horizontal {
+        height: 69px;
+        margin-left: 80px;
+        padding-left: 15px;
+        
+    }
 
-@media (max-width: 360px) {
+    .nav-button {
+        padding-right: 28px;
+        padding-left: 50px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .nav-horizontal{
+        margin-left: 70px;
+        padding-left: 43px;
+        height: 55px;
+    }
     .nav-button {
         padding-right: 15px;
         padding-left: 40px;
     }
+
 }

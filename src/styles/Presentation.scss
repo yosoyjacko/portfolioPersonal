@@ -104,12 +104,33 @@ p {
     }
 
 }
+@media (max-width: 375px) {
+    .container {
+        margin-top: 57%;
+        border-left: none;
+        border-right: none;
+        margin-left: 0;
+        width: 100%;
+        height: 40vh;
+    }
 
-@media (max-width: 360px) {
+    .content {
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .tittle {
+        font-size: 2.4rem;
+    }
+
+
+}
+
+@media (max-width: 320px) {
     .container {
         margin-left: 0;
         height: 0;
-        margin-top: 56%;
+        margin-top: 63%;
         width: 100%;
     }
 
@@ -118,10 +139,11 @@ p {
     }
 
     .tittle {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
 
     .lead-1 {
         left: 15%;
+        padding-bottom: 0;
     }
 }

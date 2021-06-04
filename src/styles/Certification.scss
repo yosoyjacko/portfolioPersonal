@@ -134,7 +134,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .container-certification {
     margin-left: 0%;
     width: 100%;
@@ -147,6 +147,21 @@
 
   .container-card .card {
     height: 35vh;
+  }
 }
 
+@media (max-width: 320px) {
+  .container-certification {
+    margin-left: 0%;
+    width: 100%;
+    height: 141vh;
+    margin-top: 65%;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+  }
+
+  .container-card .card {
+    height: 35vh;
+  }
 }
