@@ -23,7 +23,7 @@ const slides = [
     {
       title: "Fragancias Salas",
       subtitle: <a href="http://fraganciasalas.com/" target="_blank" >Web</a>,
-      description: "Pagina para un local de ventas de perfumes",
+      description: "Página para un local de ventas de perfumes",
       image: IMG3
     },
     {
@@ -35,7 +35,7 @@ const slides = [
     {
       title: "Prueba Fotografo",
       subtitle: <a href="https://github.com/yosoyjacko/pruebaFotografo" target="_blank" >GitHub</a>,
-      description: "Practica simple con html y css",
+      description: "Práctica simple con html y css",
       image: IMG5
     }
   ];

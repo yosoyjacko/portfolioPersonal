@@ -17,14 +17,14 @@ export default function Marketing() {
                         <span className="lead lead-2">acá te dejo mi CV,</span>
                     </h1>
                     <h1 className="tittle-cv">
-                        <span className="lead lead-3">Clickeando en la </span>
+                        <span className="lead lead-3">clickeando en la </span>
                     </h1>
                     <h1 className="tittle-cv">
                         <span className="lead lead-4">imagen lo descargas</span>
                     </h1>
                     <div className="text-cv">
                         <p className="text-cv">
-                            Tambien podes contactarme a travez de mis redes:
+                            Tambien podes contactarme a través de mis redes:
                         </p>
                         <div className="iconos-redes">
                             <a href="http://linkedin.com/in/jorge-correa-44881a157" target="_blank" rel="noopener noreferrer"><img className="redes" src={LINKEDIN} alt="" /> </a>
