@@ -4,7 +4,7 @@ import * as GiIcons from 'react-icons/gi'
 export const SidebarData = [
     {
         title: 'Home',
-        path: '/home',
+        path: '/',
         icon: <GiIcons.GiBatMask />,
         cName: 'nav-text'
     },
@@ -29,7 +29,7 @@ export const SidebarData = [
     },
     {
         title: 'Certificados',
-        path: '/Certificados',
+        path: 'portfolioPersonal/Certificados',
         icon: <GiIcons.GiCardJackDiamonds />,
         cName: 'nav-text'
     }
