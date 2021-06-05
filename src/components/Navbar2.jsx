@@ -6,10 +6,10 @@ function Navbar2 () {
     return (
         <>
             <nav className='nav-horizontal'>
-                <Link to='/' className='nav-left' >
+                <Link to='portfolioPersonal/' className='nav-left' >
                    Home
                 </Link>
-                <Link to='/mi-cv' className='nav-button'>
+                <Link to='portfolioPersonal/mi-cv' className='nav-button'>
                     Contacto
                 </Link>
                 <div className="nav-line"></div>
