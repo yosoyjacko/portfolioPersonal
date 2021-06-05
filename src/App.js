@@ -14,7 +14,7 @@ function App() {
       <NavBar1 />
       <Navbar2 />
       <Switch>
-        <Route path='/home' exact component={Home} />
+        <Route path='/' exact component={Home} />
         <Route path='/sobre-mi' exact component={SobreMi} />
         
         <Route path='/mi-cv' exact component={MiCv} />

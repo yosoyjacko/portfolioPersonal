@@ -6,7 +6,7 @@ function Navbar2 () {
     return (
         <>
             <nav className='nav-horizontal'>
-                <Link to='/home' className='nav-left' >
+                <Link to='/' className='nav-left' >
                    Home
                 </Link>
                 <Link to='/mi-cv' className='nav-button'>
