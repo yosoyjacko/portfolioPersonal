@@ -17,7 +17,7 @@ const SlideCard = styled.div`
   position: relative;
   max-width: 100%;
   min-width: 30%;
-  width: 31vw;
+  width: 43vw;
   height: 100%;
   background: white;
   font-size: 35px;
@@ -25,6 +25,9 @@ const SlideCard = styled.div`
   align-items: center;
   justify-content: center;
   transform-origin: 50% 50%;
+  @media screen and (max-width:960px){
+    width:90vw;
+  }
 `;
 
 function Slide({

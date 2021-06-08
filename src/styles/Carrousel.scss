@@ -6,6 +6,7 @@
 
   .div-none {
     display: flex;
+    width: 50%;
 }
 .container-carousel {
     float: right;
@@ -43,7 +44,8 @@ video {
 }
 
 @media (max-width:960px){
- .div-none {
-     display: none;
+    .div-none {
+    width: 100%;
  }
+ 
 }
