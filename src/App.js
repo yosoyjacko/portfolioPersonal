@@ -6,6 +6,7 @@ import Home from './components/pages/Home'
 import SobreMi from './components/pages/SobreMi'
 import MiCv from './components/pages/MiCv'
 import Proyectos from './components/pages/Proyectos'
+import Trabajos from './components/pages/ProyectosCard'
 import Cursos from './components/pages/Cursos'
 import Sidebar from './components/Sidebar'
 import NavBar3 from "./components/NavBar3";
