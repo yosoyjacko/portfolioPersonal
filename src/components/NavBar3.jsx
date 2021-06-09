@@ -2,23 +2,31 @@ import {
     Nav,
     NavLink,
     Bars,
-    NavMenu
+    NavMenu,
+    MobileIcon,
+    Icono
 } from './NavbarElements.jsx'
 
-const NavBar3 = () => {
+
+
+const NavBar3 = ({toggle}) => {
+    
     return (
         <>
             <Nav>
                 <NavLink to="/">
-                    <h1>home</h1>
+                    <Icono />
                 </NavLink>
-                <Bars />
+                <MobileIcon >
+                    <Bars  onClick={toggle}/>
+                </MobileIcon>
+                
                 <NavMenu>
                     <NavLink to="/Sobre-mi" activeStyle>
                         Sobre mi
                     </NavLink>
                     <NavLink to="/Mi-CV" activeStyle>
-                        Mi-CV
+                        CV
                     </NavLink>
                     <NavLink to="/Proyectos" activeStyle>
                         Proyectos
