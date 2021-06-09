@@ -6,10 +6,7 @@
 .container {
     display: flex;
     position: relative;
-    justify-content: flex-start;
-   
-    border-left: 1px solid #fff;
-    
+    justify-content: flex-start;    
     height: 90vh;
     float: left;
     width: 50%;   
@@ -28,6 +25,7 @@ span {
     justify-content: center;
     align-content: center;
     height: 90%;
+    color: #fff;
 }
 
 .tittle {

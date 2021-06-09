@@ -39,9 +39,7 @@ export default function SobreMi() {
                         Busco llevar a cabo proyectos diversos y desafiantes, para crecer como desarrollador y así continuar avanzando en mi carrera profesional. 
                         </p>
                     </div>
-                    <div className="banner">         
-                           {creationBlocks()}
-                    </div>
+                    
                 </div>
 
             </div>
