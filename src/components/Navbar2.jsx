@@ -4,7 +4,7 @@ import  './../styles/NavbarHorizontal.scss'
 
 function Navbar2 () {
     return (
-        <>
+        <>  
             <nav className='nav-horizontal'>
                 <Link to='/' className='nav-left' >
                    Home
@@ -13,6 +13,7 @@ function Navbar2 () {
                     Contacto
                 </Link>
                 <div className="nav-line"></div>
+                
             </nav>
         </>
     )

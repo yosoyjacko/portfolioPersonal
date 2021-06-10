@@ -19,7 +19,7 @@
     display: -ms-flexbox;
     display: flex;
     height: 80px;
-    margin-left: 80px;
+    
     padding-left: 60px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -91,4 +91,43 @@ Link {
     width: 1px;
     height: 100%;
     background-color: #fff;
+}
+
+.responsive {
+  
+}
+@media (max-width: 425px) {
+    .nav-horizontal {
+        height: 65px;
+        padding-left: 30px;
+        
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-horizontal {
+        height: 69px;
+        margin-left: 80px;
+        padding-left: 15px;
+        
+    }
+
+    .nav-button {
+        padding-right: 28px;
+        padding-left: 50px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .nav-horizontal{
+        margin-left: 70px;
+        padding-left: 43px;
+        height: 55px;
+    }
+    .nav-button {
+        padding-right: 15px;
+        padding-left: 40px;
+    }
+
 }

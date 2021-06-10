@@ -69,17 +69,15 @@ export default class Example extends Component {
   render() {
     return (
       <div
+        className="div-none"
         style={{
           position: "relative",
-          display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          width: "34vw",
-          height: "88vh",
-        //   margin: "0 auto",
-        
-          float:'right',
           
+          height: "90vh",
+        //   margin: "0 auto",
+          float:'right',
         }}
       >
         <VerticalCarousel

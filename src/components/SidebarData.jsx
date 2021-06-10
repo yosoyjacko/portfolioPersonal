@@ -2,12 +2,7 @@ import * as GiIcons from 'react-icons/gi'
 
 
 export const SidebarData = [
-    {
-        title: 'Home',
-        path: '/',
-        icon: <GiIcons.GiBatMask />,
-        cName: 'nav-text'
-    },
+    
     {
         title: 'Sobre mi',
         path: '/Sobre-mi',

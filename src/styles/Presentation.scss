@@ -6,13 +6,11 @@
 .container {
     display: flex;
     position: relative;
-    justify-content: flex-start;
-    margin-left: 15%;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
+    justify-content: flex-start;    
     height: 90vh;
     float: left;
-    width: 50%;    
+    width: 50%;   
+    
 }
 
 span {
@@ -20,15 +18,25 @@ span {
 }
 .content {
     width: 100%;
-    // max-width: 565px;
-    padding-top: 5%;
+    /* padding-top: 5%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 90%;
+    color: #fff;
 }
 
 .tittle {
     position: relative;
-    font-size: 5.4rem;
+    font-size: 5rem;
     font-weight: 300;
     // margin-bottom: 32px;
+}
+
+.subtittle{
+    font-size: 3rem;
 }
 
 .lead-1 {
@@ -50,6 +58,11 @@ span {
 }
 
 .lead-2 {
+    display: inline-block;
+    
+}
+
+.lead-3 {
     display: inline-block;
     
 }
@@ -79,3 +92,8 @@ p {
     margin: 0 0 0 16px;
 }
 
+@media (max-width:960px){
+    .container{
+        width: 100%;
+    }
+}

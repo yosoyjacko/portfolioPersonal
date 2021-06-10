@@ -1,27 +1,34 @@
+import { useState } from 'react';
 import NavBar1 from "./components/NavBar1";
 import "./styles/styles.scss"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/pages/Home'
 import SobreMi from './components/pages/SobreMi'
-
 import MiCv from './components/pages/MiCv'
 import Proyectos from './components/pages/Proyectos'
+import Trabajos from './components/pages/ProyectosCard'
 import Cursos from './components/pages/Cursos'
-
-import Navbar2 from "./components/Navbar2";
+import Sidebar from './components/Sidebar'
+import NavBar3 from "./components/NavBar3";
 
 function App() {
+    const[isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+      setIsOpen(!isOpen);
+    };
+
   return (
-    
-    <Router>
-      <NavBar1 />
-      <Navbar2 />
+    <Router basename={process.env.PUBLIC_URL}>
+      <Sidebar  isOpen={isOpen} toggle={toggle}/>
+      <NavBar3  toggle={toggle}/>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path='/sobre-mi'  component={SobreMi} />
-        <Route exact path='/mi-cv'  component={MiCv} />
-        <Route exact path='/proyectos'  component={Proyectos} />
-        <Route exact path='/Certificados' component={Cursos} />
+        <Route path='/' exact component={Home} />
+        <Route path='/sobre-mi' exact component={SobreMi} />
+        
+        <Route path='/mi-cv' exact component={MiCv} />
+        <Route path='/proyectos' exact component={Proyectos} />
+        <Route path='/Certificados' exact component={Cursos} />
       </Switch>
     </Router>
   );
