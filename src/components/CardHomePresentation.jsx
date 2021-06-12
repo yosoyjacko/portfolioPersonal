@@ -3,7 +3,7 @@ import './../styles/Presentation.scss'
 function CardHomePresentation () {
     return (
         <>  
-            <div className="container">
+            <div className="containerHome">
                 <div className="content">
                     <h1 className="tittle">
                         <span className="lead-1">Hello World!</span>

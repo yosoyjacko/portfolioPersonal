@@ -12,10 +12,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <Link to="/Sobre-mi">
                         <SidebarLink >Sobre mi</SidebarLink>
                     </Link>
-                    <Link to="/Mi-CV" activeStyle>
-                        <SidebarLink>Mi-CV</SidebarLink>
-                    </Link>
-                    <Link to="/Proyectos" activeStyle>
+                    <Link to="/trabajos" activeStyle>
                         <SidebarLink>Proyectos</SidebarLink>
                     </Link>
                     <Link to="/Certificados" activeStyle>

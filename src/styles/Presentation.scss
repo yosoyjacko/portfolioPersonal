@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
   }
-.container {
+.containerHome {
     display: flex;
     position: relative;
     justify-content: flex-start;    
@@ -93,7 +93,7 @@ p {
 }
 
 @media (max-width:960px){
-    .container{
+    .containerHome{
         width: 100%;
     }
 }
