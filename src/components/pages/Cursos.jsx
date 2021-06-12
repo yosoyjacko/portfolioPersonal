@@ -15,8 +15,8 @@ export default function Services() {
         <>
              <div className="container-certification">
                 <div className="content-certification">
-                    <div className="container-card">
-                        <div className="card">
+                    <div className="container-card-certificado">
+                        <div className="card-certificado">
                             <div className="face face1">
                                 <div className="content-face1">
                                     <img src={IMG3} alt="" />
@@ -26,7 +26,7 @@ export default function Services() {
                                 <img src={IMG5} alt="" />  
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="card-certificado">
                             <div className="face face1">
                                 <div className="content-face1">
                                     <img src={IMG2} alt="" />
@@ -36,7 +36,7 @@ export default function Services() {
                                 <img src={IMG6} alt="" />
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="card-certificado">
                             <div className="face face1">
                                 <div className="content-face1">
                                     <img src={IMG2} alt="" />
@@ -46,7 +46,7 @@ export default function Services() {
                                 <img src={IMG7} alt="" />
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="card-certificado">
                             <div className="face face1">
                                 <div className="content-face1">
                                     <img src={IMG1} alt="" />

@@ -25,14 +25,8 @@ const NavBar3 = ({toggle}) => {
                     <NavLink to="/Sobre-mi" activeStyle>
                         Sobre mi
                     </NavLink>
-                    <NavLink to="/Mi-CV" activeStyle>
-                        CV
-                    </NavLink>
-                    <NavLink to="/Proyectos" activeStyle>
-                        Proyectos
-                    </NavLink>
                     <NavLink to="/trabajos" activeStyle>
-                        trabajos
+                        Proyectos
                     </NavLink>
                     <NavLink to="/Certificados" activeStyle>
                         Certificados
