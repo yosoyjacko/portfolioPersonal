@@ -6,7 +6,7 @@ import {
     MobileIcon,
     Icono
 } from './NavbarElements.jsx'
-
+import '../styles/NavBar3.scss'
 
 
 const NavBar3 = ({toggle}) => {

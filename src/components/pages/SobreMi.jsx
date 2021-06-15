@@ -3,23 +3,23 @@ import './../../styles/SobreMi.scss';
 export default function SobreMi() {
     
     
-    function creationBlocks(){
-        var vuelta = [];
-        for(var i = 1 ; i < 400; i++){
-            var x = Math.random()* 5
+    // function creationBlocks(){
+    //     var vuelta = [];
+    //     for(var i = 1 ; i < 400; i++){
+    //         var x = Math.random()* 5
            
-            const divStyle = {
-                animationDuration : 2 + x + 's',
-                animationDelay: 1 + x + 's'
-            }
+    //         const divStyle = {
+    //             animationDuration : 2 + x + 's',
+    //             animationDelay: 1 + x + 's'
+    //         }
             
-            function block () {   
-                return <div className='blocks' style={divStyle}></div>
-            }
-            vuelta.push(block())
-        }
-        return vuelta        
-    }
+    //         function block () {   
+    //             return <div className='blocks' style={divStyle}></div>
+    //         }
+    //         vuelta.push(block())
+    //     }
+    //     return vuelta        
+    // }
 
     // const section = document.querySelector('content-about-me');
     // setTimeout(function(){

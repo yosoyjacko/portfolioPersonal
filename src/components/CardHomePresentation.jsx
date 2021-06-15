@@ -9,7 +9,7 @@ function CardHomePresentation () {
                         <span className="lead-1">Hello World!</span>
                     </h1>
                     <h2 className="subtittle">
-                        <span className="lead lead-2">Soy <strong className="red-text">Jorge Correa, </strong></span>
+                        <span className="lead-2">Soy <strong className="red-text">Jorge Correa, </strong></span>
                     </h2>
                     <h2 className="subtittle">
                         <span>el <strong className="red-text">Desarrollador Web</strong></span>
