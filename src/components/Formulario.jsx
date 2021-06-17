@@ -1,11 +1,16 @@
 import { Fragment, useState } from 'react';
+import './../styles/Formulario.scss';
 
-import './../styles/Formulario.scss'
+import emailjs from 'emailjs-com';
+
+
 
 const Formulario = () => {
     const [datos, setDatos] = useState({
-        nombre: '',
-        apellido: ''
+        fullName: '',
+        email: '',
+        phone: '',
+        message: ''
     })
 
     const handleInputChange = (event) => {
@@ -20,13 +25,26 @@ const Formulario = () => {
 
     }
 
+    function enviarEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('outlookMessage', 'template_aytc33o', e.target, 'user_MIFr3RxzniGRzG4Bn073i')
+          .then((result) => {
+              alert('Mensaje enviado XD')
+          }, (error) => {
+             alert(error.message)
+          });
+          e.target.reset()
+
+    }
+
     return (
         <Fragment>
             <div className="contenedor-inputs">
                 <div className="contacto-wrapper animated bounceInUp">
                     <div className="contacto-form">
                         <h3>Contactame</h3>
-                        <form onSubmit={enviarDatos}>
+                        <form onSubmit={enviarEmail}>
                                 <p>
                                     <label>Nombre Completo</label>
                                     <input 
@@ -60,7 +78,7 @@ const Formulario = () => {
                                         rows="3" 
                                         type="text"
                                         placeholder="Ingrese un Lindo Mensaje"
-                                        name= 'mensaje'
+                                        name= 'message'
                                         onChange={handleInputChange}
                                         />
                                 </p>
@@ -68,14 +86,14 @@ const Formulario = () => {
                         </form>
                     </div>
                     <div className="contact-info">
-                        <h4>Mas Info</h4>
+                        <h4>Mis Redes</h4>
                         <ul>
                             <li><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</li>
                             <li><i class="fas fa-phone"></i> (011) 1562010257 </li>
                             <li><i class="fas fa-envelope-open-text"></i> jorge_a.correa@hotmail.com</li>
+                            <li><i class="fab fa-linkedin-in"></i><a href="http://www.linkedin.com/in/jorge-correa-44881a157" target="_blank" rel="noreferrer"> linkedin.com/jorge-correa</a></li>
+                            <li><i class="fab fa-github"></i><a href="http://github.com/yosoyjacko" target="_blank" rel="noreferrer"> github.com/yosoyjacko</a></li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores temporibus aliquid. Dolores porro delectus maxime iste sequi. Nulla perferendis quod temporibus ea iure optio quis officia, eos dolores cum!</p>
-                        <p>Lorem, ipsum.</p>
                     </div>
                 </div>
             </div>
