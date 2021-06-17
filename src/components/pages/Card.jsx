@@ -1,24 +1,29 @@
 
-import BackdropFilter from 'react-backdrop-filter'
 import '../../styles/CardStyle.scss'
 
-const Card = ({tittle, imageSource, url, content}) => {
+const Tarjeta = ({tittle, imageSource, url, content}) => {
     return (
-        <div className="card text-center bg-dark">
-            <img src={imageSource} alt="" />
-            <div className="card-body text-light">
-                <h4 className="card-tittle">
-                    {tittle}
-                </h4>
-                <p className="card-text text-secondary">
-                    {content}
-                </p>
-                <a href={url} className="btn btn-outline-secondary" target="_blank" rel="noreferrer">
-                    Link de lo que sea
-                </a>
+        <div className="container">
+            <div className="card">
+                <div className="imgbx">
+                    <img src={imageSource} alt="" />
+                </div>
+                <div className="contentbx">
+                    <div className="content">
+                        <h3>
+                            {tittle}
+                        </h3>
+                        <p>
+                            {content}
+                        </p>
+                        <a href={url}  target="_blank" rel="noreferrer">
+                            - Link de lo que sea -
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     )
 };
 
-export default Card;
+export default Tarjeta;
