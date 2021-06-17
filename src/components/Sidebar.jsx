@@ -12,6 +12,9 @@ const Sidebar = ({isOpen, toggle}) => {
                     <Link to="/Sobre-mi">
                         <SidebarLink >Sobre mi</SidebarLink>
                     </Link>
+                    <Link to="/cv">
+                        <SidebarLink >CV</SidebarLink>
+                    </Link>
                     <Link to="/trabajos" activeStyle>
                         <SidebarLink>Proyectos</SidebarLink>
                     </Link>
