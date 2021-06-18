@@ -20,10 +20,6 @@ const Formulario = () => {
         })
     }
 
-    const enviarDatos = (event) => {
-        event.preventDefault();
-
-    }
 
     function enviarEmail(e) {
         e.preventDefault();
