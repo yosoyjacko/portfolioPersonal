@@ -1,17 +1,16 @@
 import './../styles/Carrousel.scss'
 import React, { Component } from "react";
 import VerticalCarousel from "./VerticalCarousel";
-import uuidv4 from "uuid";
 import { config } from "react-spring";
-import IMG1 from "./../img/video5.mp4"
-import IMG2 from "./../img/video6.mp4"
-import IMG3 from "./../img/video7.mp4"
-import IMG4 from "./../img/borderSnake.mp4"
+import IMG1 from "./../img/video5.webm"
+import IMG2 from "./../img/video6.webm"
+import IMG3 from "./../img/video7.webm"
+import IMG4 from "./../img/borderSnake.webm"
 import IMG5 from "./../img/desenfoqueDeFondo.mp4"
-import IMG6 from "./../img/Shinybutton.mp4"
+import IMG6 from "./../img/Shinybutton.webm"
 import IMG7 from "./../img/videoCube3D.mp4"
-import IMG8 from "./../img/video8.mp4"
-import IMG9 from "./../img/video9.mp4"
+import IMG8 from "./../img/video8.webm"
+import IMG9 from "./../img/video9.webm"
 
 let slides = [
   {

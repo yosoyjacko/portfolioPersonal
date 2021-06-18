@@ -2,7 +2,7 @@ import '../../styles/Certification.scss'
 import IMG2 from '../../img/codecademy.png'
 import IMG1 from '../../img/FreeCodeCamp.png'
 import IMG3 from '../../img/Henry.png'
-import IMG4 from '../../img/foto1.jpg'
+
 import IMG5 from '../../img/certificadohenry.jpg'
 import IMG6 from '../../img/certificadocodecademy1.jpg'
 import IMG7 from '../../img/certificadocodecademy2.jpg'
