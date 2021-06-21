@@ -1,7 +1,7 @@
 
 import '../../styles/CardStyle.scss'
 
-const Tarjeta = ({tittle, imageSource, url, content}) => {
+const Tarjeta = ({tittle, imageSource, url, url2, content}) => {
     return (
         <div className="container">
             <div className="card">
@@ -17,7 +17,10 @@ const Tarjeta = ({tittle, imageSource, url, content}) => {
                             {content}
                         </p>
                         <a href={url}  target="_blank" rel="noreferrer">
-                            - Link de lo que sea -
+                            - Link a Web -
+                        </a> <br />
+                        <a href={url2}  target="_blank" rel="noreferrer">
+                            - Link a Github -
                         </a>
                     </div>
                 </div>
