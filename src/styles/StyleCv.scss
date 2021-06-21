@@ -9,9 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 34vw;
-    height: 88vh;
-    float: left;
+    width: 100%;  
 }
 
 .content-cv-image{
@@ -19,84 +17,72 @@
 }
 
 .cv-imagen {
-    width: 98%;
-    height: 99%;
+    width: 100%;
+    height: 100%;
 }
 
+// .cv-image a {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border: white solid 3px;
+//     height: 5vw;
+// }
 
-@media(max-width:1260px){
-    .container-cv{
-        width: 45%;
-        margin-left: 20%;
-    }
-    .tittle-cv{
-        font-size: 2.6rem;
-    }
-}
 
-@media(max-width:980px){
-    .iconos-redes{
-        height: 10vh;
-    }
-}
+.flotante{
+    width:20%;
+    
+    position:fixed;
+    right:0px;
+    bottom:0px;
+  }
+  .botonF1{
+    width:100%;
+    height:10vh;
+    border-radius:5%;
+    background:#F44336;
+    right:0;
+    bottom:0;
+    position:absolute;
+    margin-right:16px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    color:rgb(70, 64, 64);
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+  }
+  // span{
+  //   transition:.5s;  
+  // }
+  .botonF1 a {
+      background: transparent;
+    //   font-size: 10px;
+  }
+  .botonF1:active{
+    transform:scale(1.1);
+  }
 
-@media(max-width:940px){
-    .container-cv {
-        width: 75%;
-        margin-left: 25%;
-        height: 80vh;
-    }
-
-    .cv-image{
-        width: 100%;
-        height: 125vh;
-    }
-    .cv-imagen {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media(max-width:800px){
-    .container-cv {
-        width: 100%;
-        margin-left: 0%;
-        height: 80vh;
-        margin-top: 40%;
-        border-left: none;
-        border-right: none;
-    }
-
-    .tittle-cv h1 {
+  @media (max-width:800px){
+    .botonF1 a {
+        /* background: transparent; */
+        font-size: 60%;
         display: flex;
+        align-content: center;
         justify-content: center;
         align-items: center;
+        flex-wrap: nowrap;
     }
+  }
 
-
-}
-
-@media(max-width:590px){
-    .container-cv{
-        height: 80vh;
-        margin-top: 50%
-    }
-}
-
-@media(max-width:590px){
-    .container-cv{
-        margin-top: 60%;
-    }
-
-    .iconos-redes{
-        height: 10vh;
-        padding-top: 0%;
-    }
-}
-
-@media(max-width:320px){
-    .container-cv{
-        margin-top: 70%;
-        height: 160vh;
-    }
-}
+  @media (max-width:600px){
+    .botonF1{
+        height: 5vh;
+    }  
+    .botonF1 a{
+        font-size: 60%;
+      }
+  }
