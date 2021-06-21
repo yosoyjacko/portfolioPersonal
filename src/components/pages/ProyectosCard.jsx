@@ -15,7 +15,7 @@ const cards = [
         image: foto1,
         content:"Landing Page realizado para un local de perfumes y fragancias hecho con html, css, y un poco de php.",
         url: 'http://fraganciasalas.com/',
-        url2: '#'
+        url2: 'https://github.com/yosoyjacko'
     },
     {
         id: 2,
