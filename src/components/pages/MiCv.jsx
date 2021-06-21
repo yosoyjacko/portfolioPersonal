@@ -1,5 +1,5 @@
 import '../../styles/StyleCv.scss'
-import IMG1 from '../../img/foto3.jpg'
+import IMG1 from '../../img/CV-jorge-correa.jpg'
 
 
 export default function Marketing() {
