@@ -1,5 +1,6 @@
 import '../../styles/StyleCv.scss'
 import IMG1 from '../../img/CV-jorge-correa.jpg'
+import IMG2 from '../../img/CV_Correa,Jorge.pdf'
 
 
 export default function Marketing() {
@@ -13,7 +14,7 @@ export default function Marketing() {
                 </div>
                 <div className="flotante">
                     <button className="botonF1">
-                        <a href={IMG1} target="_blank" rel="noopener noreferrer" download>Descargar</a>
+                        <a href={IMG2} target="_blank" rel="noopener noreferrer" download>Descargar</a>
                     </button>
                 </div>
             </div>

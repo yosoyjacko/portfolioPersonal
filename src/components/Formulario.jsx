@@ -87,8 +87,8 @@ const Formulario = () => {
                             <li><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</li>
                             <li><i class="fas fa-phone"></i> (011) 1562010257 </li>
                             <li><i class="fas fa-envelope-open-text"></i> jorge_a.correa@hotmail.com</li>
-                            <li><i class="fab fa-linkedin-in"></i><a href="http://www.linkedin.com/in/jorge-correa-44881a157" target="_blank" rel="noreferrer"> linkedin.com/jorge-correa</a></li>
-                            <li><i class="fab fa-github"></i><a href="http://github.com/yosoyjacko" target="_blank" rel="noreferrer"> github.com/yosoyjacko</a></li>
+                            <li><i class="fab fa-linkedin-in"></i><a href="http://www.linkedin.com/in/jorge-correa-1009" target="_blank" rel="noreferrer"> -> jorge correa</a></li>
+                            <li><i class="fab fa-github"></i><a href="http://github.com/yosoyjacko" target="_blank" rel="noreferrer"> -> yosoyjacko</a></li>
                         </ul>
                     </div>
                 </div>
