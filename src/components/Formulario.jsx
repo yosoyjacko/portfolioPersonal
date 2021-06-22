@@ -26,7 +26,7 @@ const Formulario = () => {
 
         emailjs.sendForm('outlookMessage', 'template_aytc33o', e.target, 'user_MIFr3RxzniGRzG4Bn073i')
           .then((result) => {
-              alert('Mensaje enviado XD')
+              alert('Mensaje enviado, muchas gracias')
           }, (error) => {
              alert(error.message)
           });
@@ -39,13 +39,13 @@ const Formulario = () => {
             <div className="contenedor-inputs">
                 <div className="contacto-wrapper animated bounceInUp">
                     <div className="contacto-form">
-                        <h3>Contactame</h3>
+                        <h3>Contacto</h3>
                         <form onSubmit={enviarEmail}>
                                 <p>
                                     <label>Nombre Completo</label>
                                     <input 
                                         type="text"
-                                        placeholder="Ingrese Nombre y Apellido" 
+                                        placeholder="Nombre y Apellido" 
                                         name = 'fullName'
                                         onChange={handleInputChange}
                                         />
@@ -54,7 +54,7 @@ const Formulario = () => {
                                     <label>Email</label>
                                     <input 
                                         type="email"
-                                        placeholder="Ingrese Email"
+                                        placeholder="Email"
                                         name= 'email'
                                         onChange={handleInputChange}
                                         />
@@ -63,7 +63,7 @@ const Formulario = () => {
                                     <label>Telefono</label>
                                     <input 
                                         type="tel"
-                                        placeholder="Ingrese Numero de Telefono"
+                                        placeholder="Numero de Telefono"
                                         name= 'phone'
                                         onChange={handleInputChange}
                                         />
@@ -73,7 +73,7 @@ const Formulario = () => {
                                     <textarea
                                         rows="3" 
                                         type="text"
-                                        placeholder="Ingrese un Lindo Mensaje"
+                                        placeholder="Mensaje"
                                         name= 'message'
                                         onChange={handleInputChange}
                                         />
@@ -82,7 +82,7 @@ const Formulario = () => {
                         </form>
                     </div>
                     <div className="contact-info">
-                        <h4>Mis Redes</h4>
+                        <h4>Redes</h4>
                         <ul>
                             <li><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</li>
                             <li><i class="fas fa-phone"></i> (011) 1562010257 </li>
