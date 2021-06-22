@@ -15,14 +15,14 @@ const cards = [
         image: foto1,
         content:"Landing Page realizado para un local de perfumes y fragancias hecho con html, css, y un poco de php.",
         url: 'http://fraganciasalas.com/',
-        url2: '#'
+        url2: 'https://github.com/yosoyjacko'
     },
     {
         id: 2,
         tittle: 'Movie-App',
         image: foto3,
         content:"Buscador de peliculas hecho en React.js utilizando la api de themoviedb.",
-        url: 'https://github.com/yosoyjacko',
+        url: 'https://yosoyjacko.github.io/movie-app/',
         url2: 'https://github.com/yosoyjacko/movie-app'
     },
     {
@@ -38,7 +38,7 @@ const cards = [
         tittle: 'to do list',
         image: foto5,
         content:"App para crear listas de tareas. creado con React, Redux y Sass. ",
-        url: 'https://github.com/yosoyjacko',
+        url: 'https://yosoyjacko.github.io/todo-list/',
         url2: 'https://github.com/yosoyjacko/todo-list'
     },
     {
