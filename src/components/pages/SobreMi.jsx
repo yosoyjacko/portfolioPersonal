@@ -33,10 +33,14 @@ export default function SobreMi() {
                     <h2 className="aboutMe">¿Querés saber un poco más de mi?</h2>
                     <div className="aboutMe-text">
                         <p className="texto-aboutme">
-                        Soy desarrollador web fullstack con fuerte enfoque en el front-end, en especial porque me gusta enfocarme en generar una buena experiencia de usuario. <br /> <br />
-                        Hace relativamente poco, tuve la oportunidad de completar un bootcamp de desarrollador fullstack en la plataforma SOYHENRY, con mas de 700hs de prácticas con el stack PERN (PostgreSQL, EXPRESS, React y Node.) <br /> <br />
-                        Soy una persona curiosa a la que le encanta la tecnología y seguir descubriendo y capacitandome todos los días. A nivel laboral, considero primordial la comunicación dentro del equipo, y soy capaz de aportar al grupo nuevas ideas, soluciones y mucha buena onda, para así poder aumentar la productividad y entregar proyectos de gran calidad. <br /> <br />
-                        Busco llevar a cabo proyectos diversos y desafiantes, para crecer como desarrollador y así continuar avanzando en mi carrera profesional. 
+                        Me presento, soy Jorge Correa, una persona curiosa a la que le encanta la tecnología y seguir descubriendo y capacitandome todos los días. Comunicativo al trabajar 
+                        en equipo, aporto nuevas ideas, soluciones creativas y mucha buena onda, para así poder aumentar la productividad y entregar proyectos de gran calidad. <br /> <br />
+
+                        Como desarrollador web fullstack, tengo una fuerte orientacion en el front-end, en especial porque me gusta enfocarme en generar una buena experiencia de usuario. 
+                        Busco llevar a cabo proyectos diversos y desafiantes. <br /> <br />
+
+                        Comence (y continuo) este camino de modo autodidacta, y complete un bootcamp de desarrollador fullstack en la plataforma SOYHENRY, 
+                        con más de 700hs de prácticas con el stack PERN (PostgreSQL, EXPRESS, React y Node.) 
                         </p>
                     </div>
                     
